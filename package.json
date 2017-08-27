@@ -1,0 +1,29 @@
+{
+  "name": "tiny-redux-router",
+  "version": "1.0.0",
+  "description": "Small and simple redux first router",
+  "main": "lib/index.js",
+  "repository": "https://github.com/openroomengine/tiny-redux-router",
+  "author": "c0d0g3n <c0d0g3n@gmail.com> (https://github.com/c0d0g3n)",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "path-to-regexp": "^2.0.0",
+    "react": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.8",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.5.10"
+  }
+}
