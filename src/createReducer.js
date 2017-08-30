@@ -12,18 +12,9 @@ export default (routes, options) => {
   return (routerState = initial, action) => {
     switch (action.type) {
       case options.CHANGE_ROUTE: {
-        const {id, keys, path, redirect, ...customs} = action.payload
-
         return {
           ...routerState,
-          current: {
-            ...routerState.current,
-            ...customs,
-            id,
-            keys,
-            path,
-            redirect,
-          },
+          current: action.payload,
         }
       }
 
