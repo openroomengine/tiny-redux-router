@@ -7,7 +7,8 @@
   "author": "c0d0g3n <c0d0g3n@gmail.com> (https://github.com/c0d0g3n)",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "dev": "nodemon --ignore lib --exec \"babel src -d lib\""
   },
   "dependencies": {
     "history": "^4.7.2",
