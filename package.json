@@ -1,6 +1,6 @@
 {
   "name": "tiny-redux-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small and simple redux first router",
   "main": "lib/index.js",
   "repository": "https://github.com/openroomengine/tiny-redux-router",
